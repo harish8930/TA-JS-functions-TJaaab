@@ -1,8 +1,49 @@
-writeCode
+function sayhello(name){
+alert("hello!")
+sayhello();
+}
 
-#### Read the following instructions and complete the exercise:
 
-1. You will find a file named `index.js` inside the folder named `code`
-2. `index.js` file will contain all the instructions
-3. Solve below each instruction
-4. You can also use `index.html` to open in browser to check the output.
+function getfullname(firstname,lastname){
+return `${firstname} ${lastname}`;
+}
+getfullname("john","snow"); 
+
+
+function addtwonumbers(firstnum,secondnum){
+  if(typeof firstnum !== "number" || typeof secondnum !== "number"){
+
+   alert("please enter a valid input(number)");
+   return;
+  }
+
+
+return firstnum + secondnum;
+}
+addtwonumbers();
+ 
+
+function calc(numa,numb,operation ){
+if(typeof numa !=='number' ||typeof numb !== 'number'){
+   alert("Enter valid input");
+   return;
+}
+
+{
+switch(operation) {
+
+case "add" :
+   return numa+numb
+
+   case"sub":
+   return numa - numb 
+
+   case"mul":
+   return numa*numb;
+
+   case "div":
+      return numa/numb;
+}
+
+}
+
