@@ -1,8 +1,46 @@
-writeCode
+/*function calculatemoviestowatch(age,moviesperweek){
+const maxage = 70;
+const remainingyear =  maxage - age;
+const remainingmonth = remainingyear*12;
+const remainingweek = remainingmonth*4;
+const totalmoviestowatch = remainingweek*moviesperweek
+return totalmoviestowatch;
+}
+calculatemoviestowatch(age,moviesperweek);*/
 
-#### Read the following instructions and complete the exercise:
+/*
+function celsiustofahrenheit(celcius){
+let fahrenheit = celcius*1.8+32;
+return fahrenheit
 
-1. You will find a file named `index.js` inside the folder named `code`
-2. `index.js` file will contain all the instructions
-3. Solve below each instruction
-4. You can also use `index.html` to open in browser to check the output.
+
+
+}
+celsiustofahrenheit(celcius);
+function typecheck(type){
+return typeof type
+
+}
+typecheck();
+
+function min(x,y){
+    if(x>y)
+    return y;
+    if(x<y)
+    return x;
+}
+min(); 
+
+
+
+
+
+function sumofN(n){
+    let sum = 0;
+for( let i=1;i<=n;i++){
+    sum+=i;}
+    return sum;
+}
+sumofN();
+
+
